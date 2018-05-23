@@ -13,8 +13,8 @@ class UdacityDownloader():
     use offline.
     """
 
-    BASE_URL =    'http://udacity.com/wiki/%s'
-    DOWNLOAD_URL =    BASE_URL + '/downloads'
+    BASE_URL =    'https://classroom.udacity.com/courses'
+    DOWNLOAD_URL =    BASE_URL + '/%s'
 
     def __init__(self):
         self.browser = Browser()
